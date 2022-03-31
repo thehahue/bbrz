@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Getter
 @AllArgsConstructor
 @ToString
-public class Teacher implements Person{
+public class Teacher implements Person {
     private String id;
     private String firstName;
     private String lastName;
