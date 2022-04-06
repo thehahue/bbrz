@@ -10,4 +10,9 @@ public class Form {
     private Teacher formTeacher;
 
 
+    public Form(List<Student> studentList, String id, Teacher formTeacher) {
+        this.studentList = studentList;
+        this.id = id;
+        this.formTeacher = formTeacher;
+    }
 }
