@@ -14,4 +14,8 @@ public class LehrerService {
     public List<Lehrer> getLehrer() {
         return schuleService.getSchule().getLehrer();
     }
+
+    public void insertLehrer(Lehrer lehrer) {
+        schuleService.getSchule().getLehrer().add(lehrer);
+    }
 }
