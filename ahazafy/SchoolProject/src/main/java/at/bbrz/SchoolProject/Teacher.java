@@ -38,7 +38,7 @@ public class Teacher implements Person {
         return this.birthDate;
     }
     public String getSubject() {
-        return subject;
+        return this.subject;
     }
 
 }
