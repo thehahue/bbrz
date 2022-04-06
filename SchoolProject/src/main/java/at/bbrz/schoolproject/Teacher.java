@@ -8,31 +8,35 @@ public class Teacher implements Person{
     private String firstname;
     private String lastname;
     private LocalDate dateOfBirth;
+    private String subject;
 
-    public Teacher(int id, String firstname, String lastname, LocalDate dateOfBirth) {
+    public Teacher(int id, String firstname, String lastname, LocalDate dateOfBirth, String subject) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.dateOfBirth = dateOfBirth;
+        this.subject = subject;
     }
 
     @Override
-    public void getId() {
+    public int getId() {
+        return id;
+    }
 
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
     }
 
     @Override
-    public void getFirstName() {
-
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    @Override
-    public void getLastName() {
-
-    }
-
-    @Override
-    public void getDateOfBirth() {
-
+    public String getSubject() {
+        return subject;
     }
 }

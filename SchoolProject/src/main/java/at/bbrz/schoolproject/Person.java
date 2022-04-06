@@ -1,10 +1,12 @@
 package at.bbrz.schoolproject;
 
+import java.time.LocalDate;
+
 public interface Person {
 
-    void getId();
-    void getFirstName();
-    void getLastName();
-    void getDateOfBirth();
+    int getId();
+    String getFirstname();
+    String getLastname();
+    LocalDate getDateOfBirth();
 
 }
