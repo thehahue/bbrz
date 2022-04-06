@@ -37,6 +37,7 @@ public class Teacher implements Person {
     public LocalDate getBirthDate() {
         return this.birthDate;
     }
+
     public String getSubject() {
         return this.subject;
     }
