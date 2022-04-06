@@ -5,9 +5,18 @@ import java.time.LocalDate;
 public class Teacher implements Person {
 
     private long id;
+    private String studentId;
     private String name;
     private String firstName;
     private LocalDate birthDate;
+
+    public Teacher(long id, String studentId, String name, String firstName, LocalDate birthDate) {
+        this.id = id;
+        this.studentId = studentId;
+        this.name = name;
+        this.firstName = firstName;
+        this.birthDate = birthDate;
+    }
 
     @Override
     public long getId() {
@@ -28,4 +37,8 @@ public class Teacher implements Person {
     public LocalDate getBirthDate() {
         return this.birthDate;
     }
+    public String getStudentId() {
+        return studentId;
+    }
+
 }
