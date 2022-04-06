@@ -10,9 +10,10 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @ToString
 public class Teacher implements Person {
-    private String id;
+    private long id;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
-    private String mainSubject;
+
+
 }

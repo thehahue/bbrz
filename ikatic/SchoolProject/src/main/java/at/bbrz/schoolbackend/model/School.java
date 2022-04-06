@@ -11,14 +11,14 @@ import java.util.List;
 public class School {
     private long id;
     private List<SchoolClass> schoolClasses;
-    private List<Room> rooms;
+    private List<Classroom> classrooms;
     private Teacher headmaster;
     private List<Teacher> teachers;
 
     public School(long id, Teacher headmaster) {
         this.id = id;
         this.schoolClasses = new ArrayList<>();
-        this.rooms = new ArrayList<>();
+        this.classrooms = new ArrayList<>();
         this.headmaster = headmaster;
         this.teachers = new ArrayList<>();
     }

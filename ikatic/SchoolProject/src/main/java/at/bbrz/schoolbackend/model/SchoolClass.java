@@ -9,11 +9,11 @@ import java.util.List;
 @Getter
 @ToString
 public class SchoolClass {
-    private String id;
+    private long id;
     private List<Student> students;
     private Teacher headOfSchoolClass;
 
-    public SchoolClass(String id, Teacher headOfSchoolClass) {
+    public SchoolClass(long id, Teacher headOfSchoolClass) {
         this.id = id;
         this.students = new ArrayList<>();
         this.headOfSchoolClass = headOfSchoolClass;

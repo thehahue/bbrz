@@ -7,7 +7,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @ToString
-public class Room {
-    private String id;
+public class Classroom {
+    private long id;
     private String name;
 }

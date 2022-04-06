@@ -10,12 +10,12 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Getter
 public class Student implements Person {
-    private String id;
+    private long id;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
