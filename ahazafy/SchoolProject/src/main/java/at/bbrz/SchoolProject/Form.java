@@ -15,4 +15,16 @@ public class Form {
         this.id = id;
         this.formTeacher = formTeacher;
     }
+
+    public List<Student> getStudentList() {
+        return studentList;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public Teacher getFormTeacher() {
+        return formTeacher;
+    }
 }
