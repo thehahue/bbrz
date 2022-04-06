@@ -10,6 +10,9 @@ public class Room {
         this.name = name;
     }
 
+    public Room() {
+    }
+
     public int getId() {
         return id;
     }
