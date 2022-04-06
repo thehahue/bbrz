@@ -5,14 +5,14 @@ import java.time.LocalDate;
 public class Teacher implements Person {
 
     private long id;
-    private String studentId;
+    private String subject;
     private String name;
     private String firstName;
     private LocalDate birthDate;
 
-    public Teacher(long id, String studentId, String name, String firstName, LocalDate birthDate) {
+    public Teacher(long id, String subject, String name, String firstName, LocalDate birthDate) {
         this.id = id;
-        this.studentId = studentId;
+        this.subject = subject;
         this.name = name;
         this.firstName = firstName;
         this.birthDate = birthDate;
@@ -37,8 +37,8 @@ public class Teacher implements Person {
     public LocalDate getBirthDate() {
         return this.birthDate;
     }
-    public String getStudentId() {
-        return studentId;
+    public String getSubject() {
+        return subject;
     }
 
 }
