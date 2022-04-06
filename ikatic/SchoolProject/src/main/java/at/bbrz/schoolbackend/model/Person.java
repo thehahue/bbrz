@@ -3,11 +3,11 @@ package at.bbrz.schoolbackend.model;
 import java.time.LocalDate;
 
 public interface Person {
-    String getId();
+    public long getId();
 
-    String getFirstName();
+    public String getFirstName();
 
-    String getLastName();
+    public String getLastName();
 
-    LocalDate getDateOfBirth();
+    public LocalDate getDateOfBirth();
 }
