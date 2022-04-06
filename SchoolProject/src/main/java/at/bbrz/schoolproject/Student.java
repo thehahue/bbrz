@@ -7,8 +7,14 @@ public class Student implements Person {
     private int id;
     private String firstname;
     private String lastname;
-    private LocalDate dateOfBirth;
+    private String dateOfBirth;
 
+    public Student(int id, String firstname, String lastname, String dateOfBirth) {
+        this.id = id;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.dateOfBirth = dateOfBirth;
+    }
 
     public int getId() {
         return id;
@@ -22,7 +28,7 @@ public class Student implements Person {
         return lastname;
     }
 
-    public LocalDate getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 }
