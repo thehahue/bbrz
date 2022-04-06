@@ -19,9 +19,6 @@ public class School {
         this.director = director;
     }
 
-    public School() {
-    }
-
     public int getId() {
         return id;
     }

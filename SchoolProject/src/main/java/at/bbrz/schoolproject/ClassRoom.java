@@ -2,7 +2,7 @@ package at.bbrz.schoolproject;
 
 import java.util.List;
 
-public class ClassRoom extends School{
+public class ClassRoom extends Room{
 
     private int id;
     private List<Student>students;
