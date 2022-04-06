@@ -7,6 +7,6 @@ public interface Person {
     int getId();
     String getFirstname();
     String getLastname();
-    LocalDate getDateOfBirth();
+    String getDateOfBirth();
 
 }

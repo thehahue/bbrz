@@ -7,10 +7,10 @@ public class Teacher implements Person{
     private int id;
     private String firstname;
     private String lastname;
-    private LocalDate dateOfBirth;
+    private String dateOfBirth;
     private String subject;
 
-    public Teacher(int id, String firstname, String lastname, LocalDate dateOfBirth, String subject) {
+    public Teacher(int id, String firstname, String lastname, String dateOfBirth, String subject) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -32,7 +32,7 @@ public class Teacher implements Person{
     }
 
     @Override
-    public LocalDate getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 

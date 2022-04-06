@@ -1,6 +1,5 @@
 package at.bbrz.schoolproject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ClassRoom extends School{
