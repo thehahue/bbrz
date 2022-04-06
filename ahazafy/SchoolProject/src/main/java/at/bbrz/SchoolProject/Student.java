@@ -8,6 +8,15 @@ public class Student implements Person{
     private String name;
     private String firstName;
     private LocalDate birthDay;
+    private  String studentID;
+
+    public Student(long id, String name, String firstName, LocalDate birthDay, String studentID) {
+        this.id = id;
+        this.name = name;
+        this.firstName = firstName;
+        this.birthDay = birthDay;
+        this.studentID = studentID;
+    }
 
     @Override
     public long getId() {
@@ -27,5 +36,9 @@ public class Student implements Person{
     @Override
     public LocalDate getBirthDate() {
         return this.birthDay;
+    }
+
+    public String getStudentID() {
+        return this.studentID;
     }
 }
