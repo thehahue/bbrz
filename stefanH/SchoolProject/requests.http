@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/teacherList
+
+###
+POST http://localhost:8080/insertTeacher
+Content-Type: application/json
+
+{
+  "id": "L03",
+  "vorname": "Heinz",
+  "nachname": "Köhnen",
+  "geburtsdatum": "1960-11-11",
+  "hauptgegenstand": "M"
+}
