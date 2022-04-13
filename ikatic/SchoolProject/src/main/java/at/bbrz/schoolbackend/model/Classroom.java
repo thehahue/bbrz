@@ -8,6 +8,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class Classroom {
-    private long id;
+    private String id;
     private String name;
 }
