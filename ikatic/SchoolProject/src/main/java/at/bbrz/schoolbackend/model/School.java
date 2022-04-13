@@ -9,13 +9,13 @@ import java.util.List;
 @ToString
 @Getter
 public class School {
-    private long id;
+    private String id;
     private List<SchoolClass> schoolClasses;
     private List<Classroom> classrooms;
     private Teacher headmaster;
     private List<Teacher> teachers;
 
-    public School(long id, Teacher headmaster) {
+    public School(String id, Teacher headmaster) {
         this.id = id;
         this.schoolClasses = new ArrayList<>();
         this.classrooms = new ArrayList<>();
