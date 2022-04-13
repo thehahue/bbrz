@@ -11,7 +11,7 @@ import java.util.List;
 @ToString
 @AllArgsConstructor
 public class SchoolClass {
-    private long id;
+    private String id;
     private List<Student> students = new ArrayList<>();
     private Teacher headOfSchoolClass;
 }
