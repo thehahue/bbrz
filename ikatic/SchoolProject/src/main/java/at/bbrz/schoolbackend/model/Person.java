@@ -3,7 +3,7 @@ package at.bbrz.schoolbackend.model;
 import java.time.LocalDate;
 
 public interface Person {
-    public long getId();
+    public String getId();
 
     public String getFirstName();
 
