@@ -1,5 +1,6 @@
 package at.bbrz.schoolbackend.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
@@ -8,18 +9,12 @@ import java.util.List;
 
 @ToString
 @Getter
+@AllArgsConstructor
 public class School {
     private String id;
-    private List<SchoolClass> schoolClasses;
-    private List<Classroom> classrooms;
+    private List<SchoolClass> schoolClasses = new ArrayList<>();
+    private List<Classroom> classrooms = new ArrayList<>();
     private Teacher headmaster;
-    private List<Teacher> teachers;
+    private List<Teacher> teachers = new ArrayList<>();
 
-    public School(String id, Teacher headmaster) {
-        this.id = id;
-        this.schoolClasses = new ArrayList<>();
-        this.classrooms = new ArrayList<>();
-        this.headmaster = headmaster;
-        this.teachers = new ArrayList<>();
-    }
 }
