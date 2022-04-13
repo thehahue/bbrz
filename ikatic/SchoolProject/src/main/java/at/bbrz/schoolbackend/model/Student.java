@@ -15,19 +15,4 @@ public class Student implements Person {
     private String lastName;
     private LocalDate dateOfBirth;
 
-    public long getId() {
-        return id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public LocalDate getDateOfBirth() {
-        return dateOfBirth;
-    }
 }
