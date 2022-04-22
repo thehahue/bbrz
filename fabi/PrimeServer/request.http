@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/prime/biggestNumber
+
+###
+GET http://localhost:8080/prime/allNumbers
+
+###
+POST http://localhost:8080/prime/newNumber/3
+
+###
+POST http://localhost:8080/prime/newNumber/4
