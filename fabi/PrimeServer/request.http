@@ -9,3 +9,15 @@ POST http://localhost:8080/prime/newNumber/3
 
 ###
 POST http://localhost:8080/prime/newNumber/4
+
+###
+GET http://hahue.at:8090/prime/biggestNumber
+
+###
+GET http://hahue.at:8090/prime/allNumbers
+
+###
+POST http://hahue.at:8090/prime/newNumber/7
+
+###
+POST http://hahue.at:8090/prime/newNumber/4
